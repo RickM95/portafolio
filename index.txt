@@ -5,36 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./src/output.css" />
-    <script src="./js/main.js" defer type="module"></script>
   </head>
 
   <body class="bg-gray-950 text-white font-sans">
-<nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-    <a href="#" class="flex items-center gap-2">
-      <div class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
-        <img src="./img/setting.png" alt="icon" class="w-5 h-5">
-      </div>
-      <span class="hidden sm:inline text-lg font-medium">R.Edmund</span>
-    </a>
-
-   
-    <button id="nav-toggle" class="md:hidden p-2 rounded-md bg-gray-800 border border-gray-700" aria-expanded="false" aria-label="Abrir menú">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-
-    <ul id="nav-menu" class="hidden md:flex items-center gap-6">
-      <li><a href="#about" class="hover:text-green-500 transition">About</a></li>
-      <li><a href="#skills" class="hover:text-green-500 transition">Skills</a></li>
-      <li><a href="proyectos.html" class="hover:text-green-500 transition">Projects</a></li>
-      <li><a href="#contact" class="hover:text-green-500 transition">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-      <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" class="flex items-center gap-2">
           <div class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
             <span class="font-bold text-white text-lg p-1">
@@ -50,8 +25,8 @@
           <li><a href="#projects" class="hover:text-green-500 transition">Projects</a></li>
           <li><a href="#contact" class="hover:text-green-500 transition">Contact</a></li>
         </ul>
-      </nav>div>
-    </
+      </div>
+    </nav>
     <section class="min-h-screen flex flex-col items-center justify-center px-6 text-center pt-24">
       <div class="w-90 h-90 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center mb-6 p-0">
         <span class="text-3xl font-bold text-white">
@@ -113,21 +88,53 @@
         </div>
       </div>
     </section>
-   <section id="skills" class="py-20 px-6 bg-gray-900/50">
-  <div class="max-w-4xl mx-auto text-center mb-16">
-    <h2 class="text-4xl md:text-5xl mb-4">
-      Tech <span class="text-green-500">Stack</span>
-    </h2>
-    <p class="text-lg text-gray-400">Building modern web experiences with these tools.</p>
-  </div>
+    <section id="skills" class="py-20 px-6 bg-gray-900/50">
+      <div class="max-w-4xl mx-auto text-center mb-16">
+        <h2 class="text-4xl md:text-5xl mb-4">
+          Tech <span class="text-green-500">Stack</span>
+        </h2>
+        <p class="text-lg text-gray-400">Building modern web experiences with these tools.</p>
+      </div>
 
-  <div id="skills-container" class="space-y-8 max-w-2xl mx-auto">
-  </div>
+      <div class="space-y-8 max-w-2xl mx-auto">
+        <div>
+          <div class="flex justify-between mb-2">
+            <span>HTML</span><span class="text-gray-400">95%</span>
+          </div>
+          <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-green-500 to-emerald-600 w-[95%]"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-2">
+            <span>CSS</span><span class="text-gray-400">90%</span>
+          </div>
+          <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-green-500 to-emerald-600 w-[90%]"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-2">
+            <span>JavaScript</span><span class="text-gray-400">60%</span>
+          </div>
+          <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-green-500 to-emerald-600 w-[85%]"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-2">
+            <span>Tailwind CSS</span><span class="text-gray-400">90%</span>
+          </div>
+          <div class="h-3 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-green-500 to-emerald-600 w-[90%]"></div>
+          </div>
+        </div>
+      </div>
 
-  <div class="mt-12 p-6 rounded-xl bg-green-500/10 border border-green-500/20 text-center">
-    <p class="text-lg">Still expanding and learning more <span class="text-green-500">fullstack development</span> 🚀</p>
-  </div>
-</section>
+      <div class="mt-12 p-6 rounded-xl bg-green-500/10 border border-green-500/20 text-center">
+        <p class="text-lg">Still expanding and learning more <span class="text-green-500">fullstack development</span> 🚀</p>
+      </div>
+    </section>
     <section id="projects" class="py-20 px-6">
       <div class="max-w-6xl mx-auto text-center mb-16">
         <h2 class="text-4xl md:text-5xl mb-4">
